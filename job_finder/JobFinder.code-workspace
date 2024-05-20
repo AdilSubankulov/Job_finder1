@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "JobFinder",
+			"path": ".."
+		},
+		{
+			"name": "Project-ReactJS",
+			"path": "../../Project-ReactJS"
+		},
+		{
+			"name": "photo_app",
+			"path": "../../Django/LectureProject/photo_app"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,14 @@
+{% extends 'job_finder/base.html' %}
+
+{% block body %}
+    {% for job in jobs %}
+        <article class="job">
+            <h3><a href="{% url 'job_detail' job.pk %}">{{ job.title }}</a></h3>
+            <h5>{{ job.location }}</h5>
+            <p>{{ job.text|linebreaksbr }}</p>
+            <time class="date">
+                {{ job.published_date }}
+            </time>
+        </article>
+    {% endfor %}
+{% endblock body %}
